@@ -1,0 +1,17 @@
+Nakon što se izdvoje datoteke iz .zip mape, potrebno je unutar mape os_projekt otvoriti .sln datoteku koja se zove os_projekt.sln. Nakon otvaranja .sln datoteke potrebno je na zeleni gumb "Run" pokrenuti aplikaciju.
+
+Trenutno se unutar "bin/Debug" mape nalaze datoteke koje su već napravljene, prilikom početka testiranja programa bilo bi poželjno resetirati aplikaciju na gumb "RESET". 
+
+Radi lakšeg shvaćanja aplikacije, podijelite ekran, na lijevu stranu stavite aplikaciju, a na desnu "bin/Debug" mapu, na taj način moći ćete gledati promjene koje se izvršavaju tijekom rada aplikacije.
+
+Nakon što se aplikacija pokrenula potrebno je:
+1. Odabrati datoteku (.txt)
+2. Generirati ključeve
+3. Odabrati jedan algoritam kriptiranja (RSA / AES)
+4. Kriptirati
+5. Dekriptirati
+6. Izračunati sažetak
+7. Izračunati digitalni potpis
+8. Provjeriti digitalni potpis na način da se izvode promjene nad datotekama digitalni_potpis.txt (npr. obriše se jedno slovo, doda se jedno slovo, zamijeni se slovo) ili tekst.txt. Promjene je potrebno pohraniti te ponovno stisnuti na gumb "Provjeri digitalni potpis".
+
+Nakon što se jedan algoritam testirao, potrebno je resetirati aplikaciju pritiskom na gumb "RESET" čime se brišu datoteke iz mape "bin/Debug" te se cijeli postupak ponavlja s drugim algoritmom.
